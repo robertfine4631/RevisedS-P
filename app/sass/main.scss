@@ -1,0 +1,67 @@
+//Color Variables
+$textColor: #072B41;
+//Global Elements
+body {
+ font-family: 'Open Sans', sans-serif;
+ padding: 0;
+}
+
+.container {
+  margin: 0;
+}
+//Header
+header {
+  background-image: url('/images/header.jpg');
+  height: 522px;
+  font-family: 'Oswald', sans-serif;
+  padding-left: 100px;
+  padding-top: 1px;
+  padding-right: 100px;
+
+
+  ul {
+    list-style: none;
+    display: inline;
+
+    li {
+      display: inline;
+      line-height: 0px;
+      img {
+        display: inline;
+      }
+      a {
+        text-decoration: none;
+        color: $textColor;
+      }
+    }
+  }
+  .rightNav {
+    float: right;
+    display: inline;
+    color: $textColor;
+  }
+
+  .headerTextContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    .headerText1 {
+      color: #ffffff;
+      font-size: 120px;
+      font-weight: 100;
+      margin-top: 112px;
+      text-align: center;
+    }
+    .headerText2 {
+      text-align: center;
+      margin-top: -111px;
+      font-size: 18px;
+      padding-left: 88px;
+    }
+  }
+}
+
+//Main Content
+
+//Footer
