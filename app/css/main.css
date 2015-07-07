@@ -42,4 +42,38 @@ header {
       text-align: center;
       margin-top: -111px;
       font-size: 18px;
-      padding-left: 88px; }
+      padding-left: 88px;
+      color: #072B41; }
+
+.mainSection {
+  padding-left: 162px; }
+
+.leftContent {
+  width: 616px;
+  float: left;
+  display: inline; }
+
+.rightContent {
+  display: inline;
+  float: left; }
+  .rightContent .centerPicture p {
+    color: #1D6FB1; }
+  .rightContent .centerPicture ul {
+    list-style: none; }
+    .rightContent .centerPicture ul li {
+      display: inline; }
+  .rightContent .Ad {
+    height: 300px;
+    width: 278px; }
+  .rightContent .adHeading {
+    float: right;
+    font-size: 1em; }
+    .rightContent .adHeading a {
+      text-decoration: underline; }
+  .rightContent .sideBarHeading {
+    color: #1D6FB1;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 15px;
+    clear: both;
+    float: right; }

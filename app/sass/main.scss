@@ -1,5 +1,6 @@
 //Color Variables
 $textColor: #072B41;
+$rightContentHeader: #1D6FB1;
 //Global Elements
 body {
  font-family: 'Open Sans', sans-serif;
@@ -58,10 +59,62 @@ header {
       margin-top: -111px;
       font-size: 18px;
       padding-left: 88px;
+      color: $textColor;
     }
   }
 }
 
 //Main Content
+
+.mainSection {
+  padding-left: 162px;
+}
+.leftContent {
+  width: 616px;
+  float: left;
+  display: inline;
+}
+
+.rightContent {
+
+  display: inline;
+  float: left;
+
+  .centerPicture {
+    p {
+      color: $rightContentHeader;
+    }
+    ul {
+      list-style: none;
+      li {
+        display: inline;
+      }
+    }
+  }
+
+.Ad{
+  height: 300px;
+  width: 278px;
+}
+
+.adHeading {
+  float: right;
+  font-size: 1em;
+  a {
+    text-decoration: underline;
+  }
+}
+
+.sideBarHeading {
+  color: $rightContentHeader;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 15px;
+  clear: both;
+  float: right;
+}
+
+}
+
 
 //Footer
