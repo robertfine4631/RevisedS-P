@@ -1,6 +1,6 @@
-## Welcome to My Repo
+##Surf and Paddle revised
 
-> I am your Readme.md file, you should probably update me.
+> Surf and Paddle website for assignment number 3
 
 
 ## Usage
